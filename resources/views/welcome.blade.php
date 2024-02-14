@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pelayanan Pengaduan Sekolah</title>
+    <title>Pengaduan SMK Telkom Jakarta</title>
     <link rel="icon" type="image/x-icon"
-        href="https://st2.depositphotos.com/1768926/10264/v/950/depositphotos_102644096-stock-illustration-community-care-logo-template.jpg">
+        href="https://smktelkom-jkt.sch.id/wp-content/uploads/2023/03/master-logo-almet-1024x1024.png">
 </head>
 @include('link')
 
