@@ -43,7 +43,7 @@
     <section id="formulir-pengaduan">
         <div class="container px-4" style="height: 100vh;">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-6 col-sm-6 shadow rounded px-5" style="border: 1px solid red;">
+                <div class="col-md-6 col-sm-6 shadow rounded px-5" style="border: 1px solid red; background-color:whitesmoke; color:black;">
                     <div class="d-flex justify-content-center align-items-center">
                         <h2 class="mt-4 mb-3">Formulir Pengaduan</h2>
                     </div>
@@ -114,13 +114,13 @@
                             @forelse ($laporan as $data)
                             <tr style="text-align: center;">
                                 <td>{{ $loop->iteration }}</td>
-                                <td>{{ $data->kategori   }}</td>
+                                <td>{{ $data->kategories->name   }}</td>
                                 <td>{{ $data->nis }}</td>
                                 <td>{{ $data->lokasi }}</td>
                                 <td>{{ $data->aspirasi }}</td>
                                 <td>{{ $data->keterangan }}</td>
                                 <td>
-                                    <img src="{{ asset('storage/' . $data->gambar_kejadian) }}" alt="" width="50">
+                                    <img src="{{ asset('storage/gambar_kejadian/' . $data->gambar_kejadian) }}" alt="" width="50">
                                 </td>
                                 <td>
                                     <b>

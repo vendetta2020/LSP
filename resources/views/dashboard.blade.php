@@ -181,7 +181,7 @@
                                     <td>{{ $data->aspirasi }}</td>
                                     <td>{{ $data->keterangan }}</td>
                                     <td>
-                                        <img src="{{ asset('storage/' . $data->gambar_kejadian ) }}" alt="" width="50">
+                                        <img src="{{ asset('storage/gambar_kejadian/' . $data->gambar_kejadian ) }}" alt="" width="50">
                                     </td>
                                     <td><a href="{{ route('laporan.show', ['id' => $data->id]) }}">View</a></td>
                                     <td>

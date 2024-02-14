@@ -21,7 +21,9 @@ class FormController extends Controller
         ]);
 
         // Simpan gambar ke penyimpanan
-        $gambarKejadianPath = $request->file('gambar_kejadian')->store('gambar_kejadian');
+        $gambar = $request->file('gambar_kejadian');
+        $gambarKejadianPath = $gambar->hashName();
+        $gambar->storeAs('public/gambar_kejadian', $gambarKejadianPath);
 
         // Buat entri dalam database
         $laporan = new Laporan; // Gunakan namespace yang benar

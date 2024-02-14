@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('laporans', function (Blueprint $table) {
             $table->id();
-            $table->integer('nis')->nullable();
+            $table->bigInteger('nis')->nullable();
             $table->foreignId('kategori');
             $table->string('lokasi')->nullable();
             $table->string('aspirasi')->nullable();

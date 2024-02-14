@@ -31,7 +31,7 @@ class DatabaseSeeder extends Seeder
         $user->save();
 
         \App\Models\Kategori::create([
-            'name'=> 'Kelas'
+            'name'=> 'Kebersihan'
         ]);
         \App\Models\Kategori::create([
             'name'=> 'Kantin'
