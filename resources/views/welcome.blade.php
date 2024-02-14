@@ -96,8 +96,8 @@
                     <div class="row">
                     </div>
                 </div>
-                <div class="table-responsive ">
-                    <table class="table table-bordered">
+                <div class="table-responsive border p-3 rounded bg-secondary shadow-lg">
+                    <table class="table table-bordered  bg-primary">
                         <thead class="border border-dark bg-light">
                             <tr style="text-align: center;">
                                 <th>No</th>

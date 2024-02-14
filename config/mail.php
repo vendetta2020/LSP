@@ -3,6 +3,33 @@
 return [
 
     /*
+    Latihan pertanyaan esai
+1.	Jika kita ingin mendeklarasi nilai angka bilangan bulat, tipe data yang digunakan adalah
+Jawab : Tipe data yang digunakan adalah INT (Integer)
+2.	Tipe data yang memberikan nilai balikan hanya berupa kode benar dan salah adalah
+Jawab : Tipe data yang memberikan nilai balikan berupa benar dan salah adalah Boolean
+3.	Tuliskan 3 command dalam database manipulation language
+Jawab : Insert untuk memasukkan data, Delete untuk menghapus data dan update untuk memperbarui data
+4.	Pada perulangan,terdapat 2 jenis perulangan yaitu counted loop dan uncounted loop pada perulangan for termasuk kedalam jenis perulangan
+Jawab : Termasuk dalam jenis perulangan For
+5.	Tuliskan perbedaan running dan debugging
+Jawab : 
+-	Running digunakan untuk menjalankan program yang sudah dibuat untuk melihat hasil eksekusi tanpa mencari kesalahan program.
+-	Debugging digunakan Ketika mencari dan memperbaiki bug dalam kode program
+6.	Tuliskan dua Bahasa pemograman untuk membuat aplikasi berbasis web
+Jawab : HTML dan PHP
+7.	Hubungan antar table dalam sebuah database dikenal dengan istilah
+Jawab : Relasi
+8.	Open source maknanya adalah
+Jawab : kode sumber dibuat tersedia secara bebas untuk kemungkinan modifikasi dan reditribusi produk
+9.	Dalam merancang user interface, untuk melakukan input yang merupakan pilihan dari beberapa pilihan yang diberikan, biasanya berupa pulldown option adalah
+Jawab : Pulldown option atau dropdown menu adalah elemen UI yang sering digunakan untuk memfasilitasi input pilihan dari beberapa opsi
+10.	Diagram yang digunakan untuk menampilkan ide tentang penyusunan database adalah
+Jawab : Flowchart
+
+    */
+    
+    /*
     |--------------------------------------------------------------------------
     | Default Mailer
     |--------------------------------------------------------------------------

@@ -124,14 +124,14 @@
                 <div class="container-fluid">
                     <div class="row mb-2 d-flex justify-content-center align-items-center">
                         <div class="col-sm-12 px-5">
-                            <h1>Data Laporan Pengaduan</h1>
+                            <h1 style="color: black;">Data Laporan Pengaduan</h1>
                         </div>
-                        <div class="col-sm-12 px-5">
+                        <div class="col-sm-12 px-5" style="color: black;">
                             <label for="kategoriFilter">Filter by Category:</label>
                             <select id="kategoriFilter">
                                 <option value="all">All Categories</option>
                                 @foreach ($laporan as $data)
-                                    <option value="{{ $data->kategori }}">{{ $data->kategori }}</option>
+                                    <option value="{{ $data->kategori }}">{{ $data->kategories->name }}</option>
                                 @endforeach
                                 <!-- Tambahkan opsi kategori sesuai kebutuhan -->
                             </select>
@@ -175,7 +175,7 @@
                                             </span>
                                         </b>
                                     </td>
-                                    <td>{{ $data->kategori }}</td>
+                                    <td>{{ $data->kategories->name }}</td>
                                     <td>{{ $data->nis }}</td>
                                     <td>{{ $data->lokasi }}</td>
                                     <td>{{ $data->aspirasi }}</td>
@@ -215,9 +215,9 @@
 
         <footer class="main-footer">
             <div class="float-right d-none d-sm-block">
-                <b>Version</b> 3.2.0
+                <b>Version</b> 1.1.2
             </div>
-            <strong>Copyright &copy; 2024. Ramadhan Ganteng</strong> All rights
+            <strong>Copyright &copy; 2024.</strong> All rights
             reserved.
         </footer>
 
