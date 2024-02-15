@@ -26,9 +26,8 @@
                         <h5>Selamat Datang di,</h5>
                         <h1 class="display-6" style="font-family: cambria; font-weight:800;">Pelayanan Pengaduan
                             Sekolah</h1>
-                        <p style="font-family:cambria;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
-                            architecto repellat tenetur
-                            optio minima error aspernatur consequatur perferendis nemo libero?</p>
+                        <p style="font-family:cambria;">Melalui website ini siswa dapat menyampaikan pengaduan serta memberikan saran dan masukan dengan nyaman 
+                        dan memperoleh kepastian mendapatkan tanggapan yang baik dan profesional.</p>
                         <a href="#formulir-pengaduan"><button class="btn btn-outline-danger px-5 py-2 border-2">Lapor
                                 !</button></a>
                     </div>
@@ -43,7 +42,7 @@
     <section id="formulir-pengaduan">
         <div class="container px-4" style="height: 100vh;">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-6 col-sm-6 shadow rounded px-5" style="border: 1px solid red; background-color:whitesmoke; color:black;">
+                <div class="col-md-6 col-sm-6 shadow rounded px-5" style="border: 1px solid black; background-color:whitesmoke; color:black;">
                     <div class="d-flex justify-content-center align-items-center">
                         <h2 class="mt-4 mb-3">Formulir Pengaduan</h2>
                     </div>

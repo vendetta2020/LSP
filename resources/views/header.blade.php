@@ -10,7 +10,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
-                <a class="nav-link active fs-5 text-white" aria-current="page" href="/">Home</a>
+                <a class="nav-link active fs-5 text-white"  aria-current="page" href="/">Home</a>
                 <a class="nav-link fs-5 text-white" href="/kegiatan-sekolah">Kegiatan Sekolah</a>
             </div>
             <div class="navbar-nav float-right">

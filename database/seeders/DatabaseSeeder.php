@@ -34,10 +34,10 @@ class DatabaseSeeder extends Seeder
             'name'=> 'Kebersihan'
         ]);
         \App\Models\Kategori::create([
-            'name'=> 'Kantin'
+            'name'=> 'Sarana Prasarana'
         ]);
         \App\Models\Kategori::create([
-            'name'=> 'Kamar mandi'
+            'name'=> 'Kekerasan'
         ]);
         \App\Models\Kategori::create([
             'name'=> 'Gor'
