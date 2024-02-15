@@ -131,7 +131,7 @@
                             <select id="kategoriFilter">
                                 <option value="all">All Categories</option>
                                 @foreach ($laporan as $data)
-                                    <option value="{{ $data->kategori }}">{{ $data->kategories->name }}</option>
+                                    <option value="{{ $data->kategori }}">{{ $data->kategori}}</option>
                                 @endforeach
                                 <!-- Tambahkan opsi kategori sesuai kebutuhan -->
                             </select>
@@ -175,7 +175,7 @@
                                             </span>
                                         </b>
                                     </td>
-                                    <td>{{ $data->kategories->name }}</td>
+                                    <td>{{ $data->kategori}}</td>
                                     <td>{{ $data->nis }}</td>
                                     <td>{{ $data->lokasi }}</td>
                                     <td>{{ $data->aspirasi }}</td>

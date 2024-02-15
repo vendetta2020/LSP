@@ -113,7 +113,7 @@
                             @forelse ($laporan as $data)
                             <tr style="text-align: center;">
                                 <td>{{ $loop->iteration }}</td>
-                                <td>{{ $data->kategories->name   }}</td>
+                                <td>{{ $data->kategori}}</td>
                                 <td>{{ $data->nis }}</td>
                                 <td>{{ $data->lokasi }}</td>
                                 <td>{{ $data->aspirasi }}</td>
