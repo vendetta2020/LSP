@@ -30,11 +30,12 @@ class HomeController extends Controller
     public function dashboard(Request $request){
         $user = Auth::user(); 
         $laporan = laporan::all();
+        $kategories = Kategori::all();
         if ($request->has('kegiatan')) {
             $kegiatanFilter = $request->input('kegiatan');
             $laporan_kegiatan = Laporan::whereIn('kegiatan', $kegiatanFilter)->get();
         }
-        return view('dashboard',compact('laporan'));
+        return view('dashboard',compact('laporan','kategories'));
     }
 
     public function show($id)

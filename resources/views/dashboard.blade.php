@@ -128,13 +128,15 @@
                         </div>
                         <div class="col-sm-12 px-5" style="color: black;">
                             <label for="kategoriFilter">Filter by Category:</label>
-                            <select id="kategoriFilter">
-                                <option value="all">All Categories</option>
-                                @foreach ($laporan as $data)
-                                    <option value="{{ $data->kategori }}">{{ $data->kategori}}</option>
-                                @endforeach
-                                <!-- Tambahkan opsi kategori sesuai kebutuhan -->
-                            </select>
+                            <div class="col-3">
+                                <select class="form-select" id="kategoriFilter">
+                                    <option value="all">All Categories</option>
+                                    @foreach ($kategories as $data)
+                                        <option value="{{ $data->id }}">{{ $data->name}}</option>
+                                    @endforeach
+                                    <!-- Tambahkan opsi kategori sesuai kebutuhan -->
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +177,7 @@
                                             </span>
                                         </b>
                                     </td>
-                                    <td>{{ $data->kategori}}</td>
+                                    <td>{{ $data->kategories->name}}</td>
                                     <td>{{ $data->nis }}</td>
                                     <td>{{ $data->lokasi }}</td>
                                     <td>{{ $data->aspirasi }}</td>

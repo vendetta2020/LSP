@@ -15,6 +15,6 @@ class laporan extends Model
     protected $guarded = [];
 
     public function kategories() {
-        return $this->belongsTo(Kategori::class, 'id', 'id');
+        return $this->belongsTo(Kategori::class, 'kategori', 'id');
     }
 }
